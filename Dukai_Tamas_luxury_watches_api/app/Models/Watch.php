@@ -28,6 +28,9 @@ class Watch extends Model
         'Power_Reserve',
         'id'
 
+        // ami nem kötelező mező azt ki kell kommentelni, nem kötelező az NULL-al van jelölve az adatbázisban
+        //vagy éppen itt nem adom meg azokat a mezőket mert úgyis a watchcontroller-ben a store metódusban lesznek validálva
+
     ];  //mass assignment művelet engedélyezése protected $fillable = [];
       //vagy protected $guarded[]; a második mindent engedályez
 
