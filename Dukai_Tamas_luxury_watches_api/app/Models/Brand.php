@@ -12,7 +12,7 @@ class Brand extends Model
 
     public function watches()
 {
-    return $this->hasMany(Watch::class);
+    return $this->hasMany(Watch::class, 'Brand_Id');
 }
 
 }
